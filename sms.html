@@ -1,0 +1,452 @@
+<html lang="en">
+
+<head>
+
+  <title>TextVext</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="image.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://raw.githubusercontent.com/henrychavez/materialize-tags/master/dist/css/materialize-tags.min.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/henrychavez/materialize-tags/master/docs/assets/css/app.css"/>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+
+  <script src="./materialize-tags.min.js"></script>
+
+  <style>
+    .brand {
+      font-family: 'Pacifico', cursive;
+      color: white;
+    }
+
+    .brand:hover {
+      text-decoration: none;
+    }
+
+    .nav-brand {
+      font-size: 30px !important;
+      padding: 0 5% !important;
+      left: 0;
+    }
+
+    /*.service-carousel-ico {
+      font-size: 600% !important;
+      padding-top: 70px;
+    }
+
+    .service-carousel-txt {
+      font-size: 300% !important;
+      padding-right: 2%;
+      padding-left: 2%;
+    }*/
+
+    .nav-menu {
+      font-size: 150%;
+    }
+/*
+    .carousel-nav {
+      top: 0;
+    }*/
+
+    /*#sidenav-overlay {
+      opacity: 0 !important;
+    }*/
+
+    nav {
+      background-color: #2196F3 !important;
+    }
+
+    .carousel {
+      height: 475px !important;
+    }
+
+    .page-footer {
+      background-color: #ff3d00 !important;
+    }
+
+    .service-board {
+      font-size: 1000% !important;
+    }
+
+    .black-text {
+      color: black !important;
+    }
+
+    ul.right {
+      padding-right: 2%;
+    }
+
+    ul.right>li>a:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .modal {
+      width: 40% !important;
+    }
+
+    i.red-color{
+      color: #F44336 !important;
+    }
+
+    i.green-color{
+      color: #4CAF50 !important;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand nav-brand brand-logo">TextVext</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars nav-menu" aria-hidden="true"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">SMS</a></li>
+        <li><a href="sass.html">Wallet <span class="badge" style="color:white; background-color:transparent;margin-left:0;padding-left:0;">&#8377;25</span></a></li>
+        <li><a href="sass.html">Invite&nbsp;&&nbsp;Earn</a></li>
+        <li><a href="sass.html">Feedback</a></li>
+        <li><a href="badges.html">Help</a></li>
+        <li><a href="collapsible.html">About</a></li>
+        <li><a class="modal-trigger" href="#login">Login</a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#!user"><div class="circle brand" style="background-color:#2196F3;padding:2.5%;font-size:150%;"><center>TV</center></div></a>
+            <!-- <a href="#!name"><span class="white-text name">Phani</span></a> -->
+            <a href="#!email"><span class="white-text phone">+91&nbsp;8501937999</span></a>
+          </div>
+        </li>
+        <li><a href="sass.html">SMS</a></li>
+        <li><a href="sass.html">Wallet <span class="badge blue right-align" style="float:right;color:white;">&#8377;25</span></a></li>
+        <li><a href="sass.html">Invite&nbsp;&&nbsp;Earn</a></li>
+        <li><a class="modal-trigger" href="#login">Login</a></li>
+        <li><a href="sass.html">Feedback</a></li>
+        <li><a href="badges.html">Help</a></li>
+        <li><a href="collapsible.html">About</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+      <script>
+        $(".button-collapse").sideNav();
+      </script>
+
+  <div class="container" style="padding:5% 0;">
+    <div class="row">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">textsms</i>Free SMS</div>
+          <div class="collapsible-body">
+
+            <div class="row">
+              <div class="input-field col-md-12">
+                <i class="material-icons prefix">perm_identity</i>
+                <select>
+                   <option value="" disabled selected>Choose Sender ID</option>
+                   <option value="1">MSGREVOL</option>
+                   <option value="2">TEXTVEXT</option>
+                   <option value="3">YOLOBOLO</option>
+                 </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Enter your message</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                  <i class="material-icons right">send</i>
+                </button>
+              </center>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">av_timer</i>Future SMS</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="input-field col-md-12">
+                <i class="material-icons prefix">perm_identity</i>
+                <select>
+                   <option value="" disabled selected>Choose Sender ID</option>
+                   <option value="1">MSGREVOL</option>
+                   <option value="2">TEXTVEXT</option>
+                   <option value="3">YOLOBOLO</option>
+                 </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">today</i>
+                <input type="text" class="datepicker">
+                <label for="icon_telephone">Date</label>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">schedule</i>
+                <input type="text" class="timepicker">
+                <label for="icon_telephone">Time</label>
+              </div>
+            </div>
+
+            <script>
+            $('.datepicker').pickadate({
+             selectMonths: true, // Creates a dropdown to control month
+             selectYears: 1, // Creates a dropdown of 15 years to control year,
+             today: 'Today',
+             clear: 'Clear',
+             close: 'Ok',
+             closeOnSelect: false // Close upon selecting a date,
+           });
+
+
+            $('.timepicker').pickatime({
+              default: 'now', // Set default time: 'now', '1:30AM', '16:30'
+              fromnow: 0,       // set default time to * milliseconds from now (using with default = 'now')
+              twelvehour: false, // Use AM/PM or 24-hour format
+              donetext: 'OK', // text for done-button
+              cleartext: 'Clear', // text for clear-button
+              canceltext: 'Cancel', // Text for cancel-button
+              autoclose: false, // automatic close timepicker
+              ampmclickable: true, // make AM PM clickable
+              aftershow: function(){} //Function for after opening timepicker
+            });
+
+
+            </script>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea" data-length="120"></textarea>
+                  <label for="icon_prefix2">Enter your message</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                  <i class="material-icons right">send</i>
+                </button>
+              </center>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">list</i>Bulk SMS</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="input-field col-md-12">
+                <i class="material-icons prefix">perm_identity</i>
+                <select>
+                   <option value="" disabled selected>Choose Sender ID</option>
+                   <option value="1">MSGREVOL</option>
+                   <option value="2">TEXTVEXT</option>
+                   <option value="3">YOLOBOLO</option>
+                 </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s1">
+                <i class="material-icons prefix">phone</i>
+              </div>
+              <div class="input-field col s11">
+                <input id="icon_telephone" type="tel" class="validate" data-role="materialtags">
+                <label for="icon_telephone">Enter multiple numbers</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Enter your message</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                  <i class="material-icons right">send</i>
+                </button>
+              </center>
+            </div>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">description</i>Delivery report</div>
+          <div class="collapsible-body">
+
+            <table class="highlight">
+              <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Number</th>
+                    <th>Message</th>
+                    <th>Status</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>9949011553</td>
+                  <td>Hey hello! what are you doing</td>
+                  <td><i class="material-icons green-color">done</i></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>8501937999</td>
+                  <td>Hey hello! what are you doing</td>
+                  <td><i class="material-icons green-color">done</i></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>7330773456</td>
+                  <td>Hey hello! what are you doing</td>
+                  <td><i class="material-icons red-color">sms_failed</i></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">contacts</i>Buy Sender ID</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">perm_identity</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Sender ID</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">buy
+                  <i class="material-icons right">send</i>
+                </button>
+              </center>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">supervisor_account</i>Sender ID status</div>
+          <div class="collapsible-body">
+            <ul class="collection with-header">
+              <li class="collection-header"><h5>Your Sender IDs</h5></li>
+              <li class="collection-item"><div>MSGREVOL<a href="#!" class="secondary-content"><i class="material-icons">done</i></a></div></li>
+              <li class="collection-item"><div>TEXTVEXT<a href="#!" class="secondary-content"><i class="material-icons red-color">report_problem</i></a></div></li>
+              <li class="collection-item"><div>YOLOBOLO<a href="#!" class="secondary-content"><i class="material-icons">done</i></a></div></li>
+              <li class="collection-item"><div>ALVINOPI<a href="#!" class="secondary-content"><i class="material-icons red-color">report_problem</i></a></div></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      $('select').material_select();
+    });
+  </script>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text brand">TextVext</h5>
+          <p class="grey-text text-lighten-4">TextVext was launched on June 2017 to provide FREE SMS in india. We are providing Free SMS and Bulk SMS services with 100% SMS Delivery across the India</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Site map</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Feedback</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Terms and Conditions</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        All rights reserved with <span class="brand">TextVext</span>
+        <a class="grey-text text-lighten-4 right" href="#!">Contact us cs@textvext.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

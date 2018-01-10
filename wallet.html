@@ -1,0 +1,289 @@
+<html lang="en">
+
+<head>
+
+  <title>TextVext</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="image.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://raw.githubusercontent.com/henrychavez/materialize-tags/master/dist/css/materialize-tags.min.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/henrychavez/materialize-tags/master/docs/assets/css/app.css"/>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+
+  <script src="./materialize-tags.min.js"></script>
+
+  <style>
+    .brand {
+      font-family: 'Pacifico', cursive;
+      color: white;
+    }
+
+    .brand:hover {
+      text-decoration: none;
+    }
+
+    .nav-brand {
+      font-size: 30px !important;
+      padding: 0 5% !important;
+      left: 0;
+    }
+
+    /*.service-carousel-ico {
+      font-size: 600% !important;
+      padding-top: 70px;
+    }
+
+    .service-carousel-txt {
+      font-size: 300% !important;
+      padding-right: 2%;
+      padding-left: 2%;
+    }*/
+
+    .nav-menu {
+      font-size: 150%;
+    }
+/*
+    .carousel-nav {
+      top: 0;
+    }*/
+
+    /*#sidenav-overlay {
+      opacity: 0 !important;
+    }*/
+
+    nav {
+      background-color: #2196F3 !important;
+    }
+
+    .carousel {
+      height: 475px !important;
+    }
+
+    .page-footer {
+      background-color: #ff3d00 !important;
+    }
+
+    .service-board {
+      font-size: 1000% !important;
+    }
+
+    .black-text {
+      color: black !important;
+    }
+
+    ul.right {
+      padding-right: 2%;
+    }
+
+    ul.right>li>a:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .modal {
+      width: 40% !important;
+    }
+
+    i.red-color{
+      color: #F44336 !important;
+    }
+
+    i.green-color{
+      color: #4CAF50 !important;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand nav-brand brand-logo">TextVext</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars nav-menu" aria-hidden="true"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">SMS</a></li>
+        <li><a href="sass.html">Wallet <span class="badge" style="color:white; background-color:transparent;margin-left:0;padding-left:0;">&#8377;25</span></a></li>
+        <li><a href="sass.html">Feedback</a></li>
+        <li><a href="badges.html">Help</a></li>
+        <li><a href="collapsible.html">About</a></li>
+        <li><a class="modal-trigger" href="#login">Login</a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#!user"><div class="circle brand" style="background-color:#2196F3;padding:2.5%;font-size:150%;"><center>TV</center></div></a>
+            <!-- <a href="#!name"><span class="white-text name">Phani</span></a> -->
+            <a href="#!email"><span class="white-text phone">+91&nbsp;8501937999</span></a>
+          </div>
+        </li>
+        <li><a href="sass.html">SMS</a></li>
+        <li><a href="sass.html">Wallet <span class="badge blue right-align" style="float:right;color:white;">&#8377;25</span></a></li>
+        <li><a class="modal-trigger" href="#login">Login</a></li>
+        <li><a href="sass.html">Feedback</a></li>
+        <li><a href="badges.html">Help</a></li>
+        <li><a href="collapsible.html">About</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+      <script>
+        $(".button-collapse").sideNav();
+      </script>
+
+  <div class="container" style="padding:5% 0;">
+    <div class="row">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">account_balance_wallet</i>Add fund<span class="badge blue right-align" style="float:right;color:white;">&#8377;25</span></a></div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="prefix">&#8377;</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Amount</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Add
+                  <i class="material-icons right">send</i>
+                </button>
+              </center>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">local_offer</i>Reedem coupon</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="prefix material-icons">short_text</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Coupon</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Reedem
+                  <i class="material-icons right">send</i>
+                </button>
+              </center>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">assignment</i>Transaction history</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <table class="highlight">
+                <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Debited/Credited</th>
+                      <th>Amount</th>
+                      <th>Type</th>
+                      <th>Comment</th>
+                      <th>Status</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Debited</td>
+                    <td>0.5&#8377;</td>
+                    <td>Sent SMS</td>
+                    <td>To 9949011553</td>
+                    <td><i class="material-icons green-color">done</i></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Debited</td>
+                    <td>0&#8377;</td>
+                    <td>Sent SMS</td>
+                    <td>To 9949011553</td>
+                    <td><i class="material-icons red-color">sms_failed</i></td>
+                  </tr>
+                  <tr>To 9949011553
+                    <td>3</td>
+                    <td>Debited</td>
+                    <td>5&#8377;</td>
+                    <td>Sender ID</td>
+                    <td>Bought LOLLIPOP</td>
+                    <td><i class="material-icons green-color">done</i></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Debited</td>
+                    <td>0.5&#8377;</td>
+                    <td>Sent SMS</td>
+                    <td>To 9949011553</td>
+                    <td><i class="material-icons green-color">done</i></td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text brand">TextVext</h5>
+          <p class="grey-text text-lighten-4">TextVext was launched on June 2017 to provide FREE SMS in india. We are providing Free SMS and Bulk SMS services with 100% SMS Delivery across the India</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Site map</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Feedback</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Terms and Conditions</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        All rights reserved with <span class="brand">TextVext</span>
+        <a class="grey-text text-lighten-4 right" href="#!">Contact us cs@textvext.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
